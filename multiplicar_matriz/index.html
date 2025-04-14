@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Multiplicación de Matrices</title>
+  <link rel="stylesheet" href="style_index.css">
+</head>
+<body>
+  <h1>Multiplicación de Dos Matrices</h1>
+
+  <form id="dimensionForm">
+    <label>Filas de Matriz 1: <input type="number" id="rows1" min="1" required></label>
+    <label>Columnas de Matriz 1 / Filas de Matriz 2: <input type="number" id="common" min="1" required></label>
+    <label>Columnas de Matriz 2: <input type="number" id="cols2" min="1" required></label>
+    <button type="submit">Crear Matrices</button>
+  </form>
+
+  <div id="matrices"></div>
+  <button id="multiplicarBtn" style="display:none;">Multiplicar Matrices</button>
+
+  <h2>Matriz Resultado</h2>
+  <div id="resultado"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
